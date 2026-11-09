@@ -1,0 +1,69 @@
+Locating Parquet files...
+Preparing artifact and sibling data...
+Running analysis. This may take a few minutes...
+
+Loaded 1,877,981 unique primary skills.
+
+===========================================================================
+ORIGINAL BROAD DEFINITION
+===========================================================================
+Group                                     Skills       Reused   Reuse rate
+Script-bearing                           226,928       35,329       15.57%
+No script-like files observed            455,368       81,799       17.96%
+Unknown                                1,195,685      188,960       15.80%
+
+Additional reuse statistics:
+
+Script-bearing
+  Mean repositories:   1.792
+  Median repositories: 1
+  90th percentile:     2
+  Maximum:             781
+
+No script-like files observed
+  Mean repositories:   1.799
+  Median repositories: 1
+  90th percentile:     2
+  Maximum:             951
+
+Statistical comparison:
+  Chi-square: 610.8854
+  p-value:    7.180871e-135
+  Cramer's V: 0.02992
+  Odds ratio (script vs. no-script): 0.8421
+
+===========================================================================
+NARROWER SCRIPT DEFINITION
+===========================================================================
+Group                                     Skills       Reused   Reuse rate
+Script-bearing                           212,309       33,039       15.56%
+No script-like files observed            469,987       84,089       17.89%
+Unknown                                1,195,685      188,960       15.80%
+
+Additional reuse statistics:
+
+Script-bearing
+  Mean repositories:   1.803
+  Median repositories: 1
+  90th percentile:     2
+  Maximum:             781
+
+No script-like files observed
+  Mean repositories:   1.794
+  Median repositories: 1
+  90th percentile:     2
+  Maximum:             951
+
+Statistical comparison:
+  Chi-square: 558.3518
+  p-value:    1.919402e-123
+  Cramer's V: 0.02861
+  Odds ratio (script vs. no-script): 0.8458
+
+===========================================================================
+SENSITIVITY COMPARISON
+===========================================================================
+Script-bearing: broad=15.57%, narrow=15.56%
+No script-like files observed: broad=17.96%, narrow=17.89%
+
+Analysis complete.

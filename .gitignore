@@ -1,0 +1,17 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Common data formats
+*.csv
+*.parquet
+*.json
+*.sqlite
+*.duckdb
+*.db
+
+# Data folders
+data/
+datasets/
+raw_data/
